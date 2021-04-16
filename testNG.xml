@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="RestAPI_Employee">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+    <test name="EmployeesRestAPITest" thread-count="5">
+        <classes>
+            <class name="testCase.TC001_GET_All_Employess"/>
+            <class name="testCase.TC002_Get_Employee"/>
+            <class name="testCase.TC003_POST_Employee"/>
+            <class name="testCase.TC004_PUT_OR_UPDATE_Emp_Record"/>
+            <class name="testCase.TC005_DELETE_Emp_Record"/>
+        </classes>
+    </test>
+</suite>
