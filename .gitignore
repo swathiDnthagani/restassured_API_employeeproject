@@ -83,3 +83,5 @@ target/
 reports
 run.bat
 mvn
+ .idea/
+ .idea/*
